@@ -1,0 +1,17 @@
+Step to run this project:
+=========================
+1. First install all dependencies using composer.
+	(composer install)
+
+2. Migrate database using
+	php artisan migrate
+
+3. Seed your database with 1000 dummy user's if necessary (optional)
+	php artisan db:seed
+
+4. Clear your cache
+	php artisan config:cache
+	php artisan cache:clear
+
+5. Run
+	php artisan serve
