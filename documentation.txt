@@ -15,3 +15,21 @@ Step to run this project:
 
 5. Run
 	php artisan serve
+
+
+
+Note :
+======
+If you want to send email for account confirmation the pls follow below steps:
+
+SEND_VERIFY_EMAIL=false  // true
+
+
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.sparkpostmail.com
+MAIL_PORT=587
+MAIL_USERNAME=SMTP_Injection
+MAIL_PASSWORD=8869e634756421292f69ed5fc3c01467b85a539a
+MAIL_ENCRYPTION=tls
+
+SPARKPOST_SECRET=8869e634756421292f69ed5fc3c01467b85a539a  // In case if you use SparkPost
