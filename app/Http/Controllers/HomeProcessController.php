@@ -62,7 +62,7 @@ class HomeProcessController extends Controller
         }
 
         $current_timestamp = Carbon::now()->toDateTimeString();
-        $remember_token = rand(1111111111,9999999999);
+        $remember_token = rand(11111,99999);
         $data = array(
             'first_name' => $first_name,
             'last_name' => $last_name,
